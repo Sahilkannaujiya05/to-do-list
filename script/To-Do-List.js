@@ -1,10 +1,4 @@
-const addToDoList = [
-            {value: 'make dinner',
-             dueDate: '2025-6-20'
-            },
-
-          {value: 'wash dishes',
-           dueDate: '2025-6-20'}];
+const addToDoList = [];
           function renderToDo(){
           let addList = '';
           for(let i = 0; i < addToDoList.length; i++){
@@ -52,4 +46,5 @@ const addToDoList = [
             inputElem.value = '';
             document.querySelector('.js-result');
             renderToDo();
+
           }
